@@ -102,7 +102,7 @@ export function OwnerItemsPage() {
                                     title={item.title}
                                     daily_rate={item.daily_rate}
                                     city={item.city}
-                                    image={item.images?.[0]}
+                                    images={item.images}
                                     category={item.category}
                                 />
                             </div>

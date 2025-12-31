@@ -1,12 +1,5 @@
 
-// Placeholder pages to satisfy imports
-
-const Placeholder = ({ name }: { name: string }) => (
-    <div style={{ padding: '2rem' }}>
-        <h1>{name} </h1>
-        < p > This page is under construction.</p>
-    </div>
-);
+// Page exports
 
 export { HomePage } from './Home';
 export { BrowsePage } from './Browse';
